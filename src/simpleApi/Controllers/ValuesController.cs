@@ -7,7 +7,7 @@ namespace simpleApi.Controllers
     {
         [HttpGet("/{id}")]
         public ActionResult<string> Get(int id) {
-            return $"returned value is  {id}";
+            return $"returned value is {id}";
         }
         
     }
